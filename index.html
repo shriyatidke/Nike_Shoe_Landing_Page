@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/nike-logo1.png" type="images/x-png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="images/nike-logo1.png" class="logo" alt="logo"></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Just Do It. <span>Nike</span></h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis velit consectetur optio accusamus in, quasi ducimus nam quod. Dolores, error?</p>
+                <a href="#">Learn More</a>
+            </div>
+
+            <div class="imgBox">
+                <img src="images/nike-shoe.jpeg" alt="Nike Shoe" class="nike" width="600">
+            </div>
+        </div>
+
+        <div class="thumb">
+            <li><img src="images/nike-shoe4.jpeg" onclick="imgSlider('images/nike-shoe4.jpeg'); changeCircleColor('#FFA500')" alt="thumb"></li>
+            <li><img src="images/nike-shoe2.jpeg" onclick="imgSlider('images/nike-shoe2.jpeg'); changeCircleColor('#CE6A93')" alt="thumb"></li>
+            <li><img src="images/nike-shoe3.jpeg" onclick="imgSlider('images/nike-shoe3.jpeg'); changeCircleColor('#333')" alt="thumb"></li>
+        </div>
+
+        <ul class="sci">
+            <li><a href="#"><i class="fab-fa-telegram-plane"></i></a></li>
+            <li><a href="#"><i class="fab-fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab-fa-youtube"></i></a></li>
+        </ul>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
